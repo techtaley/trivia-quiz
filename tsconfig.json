@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+    "include": ["src", "typings.d.ts", "hidden/ScreenName.test_disabled.tsx", "hidden/ScreenName.test_disable.tsx", "hidden/Trivia_updated.tsx", "hidden/API.ts"],
+  // "include": [declaration.d.ts
+  //   "src", "react-trivia/hidden/Home.tsx", "react-trivia/hidden/App_brower-router.tsx", "react-trivia/deleted/Trivia_issues_to_fix.tsx", "react-trivia/deleted/Home_browser_router.tsx"  ]
+}
